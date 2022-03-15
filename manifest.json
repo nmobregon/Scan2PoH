@@ -1,0 +1,11 @@
+{
+  "name": Scan2PoH",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1.0",
+  "description": "Adds a proof of humanity profile access for ethscan address links found in page",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
